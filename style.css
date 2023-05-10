@@ -1,0 +1,50 @@
+:root{
+    --maincolor:#ffffff;
+    --hovercolor:#334774;
+    --sidebarheading:#b8bbc7;
+    --lssizenoheader:20px;
+    --lssizeheader:15px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    color:black
+}
+
+a{
+    text-decoration: none;
+}
+
+.sidebar{
+    width: 13vw;
+}
+.user{
+    text-align: center;
+    justify-self: start;
+    margin: 50px 0;
+
+}
+.user img{
+    border-radius: 50%;
+    width: 130px;
+}
+.name{
+    font-size: var(--lssizenoheader);
+}
+.email{
+    font-size: var(--lssizeheader);
+    color: var(--sidebarheading);
+}
+.sidebar ul{
+    list-style: none;
+    font-size: var(--lssizenoheader);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:5px 0;
+}
+.sidebar h6{
+    font-size: var(--lssizeheader);
+    color: var(--sidebarheading);
+    text-align: center;
+}
